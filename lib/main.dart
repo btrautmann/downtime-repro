@@ -6,14 +6,7 @@ void main() async {
 }
 
 class MainApp extends StatelessWidget {
-  // final Function(SharedPreferences?) sampleString;
-  // final SharedPreferences? prefs;
-
-  const MainApp({
-    super.key,
-    // required this.sampleString,
-    // required this.prefs,
-  });
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
